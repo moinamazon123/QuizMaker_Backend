@@ -1,0 +1,59 @@
+security:
+  sessions: never
+server:
+  port: 8181
+  servlet:
+    session:
+      timeout: 1
+
+
+spring:
+  datasource:
+    password: moin
+    testWhileIdle: true
+    url: jdbc:mysql://localhost:3306/QuizMaker
+    username: root
+    validationQuery: SELECT 1
+
+    initialization-mode: session
+    store-type: redis
+
+
+  http:
+    multipart:
+      max-file-size: 150MB
+      max-request-size: 500MB
+
+
+
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+            fallback: false
+            port: 465
+    username:
+  redis:
+    host: localhost
+    password: ''
+    port: 6379
+
+support:
+  email: moinamazon123@gmail.com

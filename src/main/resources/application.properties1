@@ -1,0 +1,78 @@
+# Loco java export: Java .properties file
+# Project: application.yml conversion
+# Release: Working copy
+# Locale: en-IN, English (India)
+# Exported by: Unregistered user
+# Exported at: Fri, 04 Sep 2020 22:13:43 +0530
+#
+
+# security.sessions
+security.sessions = never
+
+# server.port
+server.port = 8181
+
+# spring.datasource.password
+spring.datasource.password = moin
+
+# spring.datasource.testWhileIdle
+spring.datasource.testWhileIdle = 1
+
+# spring.datasource.url
+spring.datasource.url = jdbc\:mysql\://localhost\:3306/QuizMaker
+
+# spring.datasource.username
+spring.datasource.username = root
+
+# spring.datasource.validationQuery
+spring.datasource.validationQuery = SELECT 1
+
+# spring.mvc.view.prefix
+spring.mvc.view.prefix = /WEB-INF/jsp/
+
+# spring.mvc.view.suffix
+spring.mvc.view.suffix = .jsp
+
+# spring.jpa.hibernate.ddl-auto
+spring.jpa.hibernate.ddl-auto = update
+
+# spring.jpa.properties.hibernate.dialect
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
+
+# spring.jpa.show-sql
+spring.jpa.show-sql = 1
+
+# spring.mail.host
+spring.mail.host = smtp.gmail.com
+
+# spring.mail.password
+spring.mail.password = moin
+
+# spring.mail.properties.mail.smtp.auth
+spring.mail.properties.mail.smtp.auth = 1
+
+# spring.mail.properties.mail.smtp.socketFactory.class
+spring.mail.properties.mail.smtp.socketFactory.class = javax.net.ssl.SSLSocketFactory
+
+# spring.mail.properties.mail.smtp.socketFactory.fallback
+spring.mail.properties.mail.smtp.socketFactory.fallback = 
+
+# spring.mail.properties.mail.smtp.socketFactory.port
+spring.mail.properties.mail.smtp.socketFactory.port = 465
+
+# spring.mail.username
+spring.mail.username = ray.deng83@gmail.com
+
+# spring.redis.host
+spring.redis.host = localhost
+
+# spring.redis.password
+spring.redis.password = 
+
+# spring.redis.port
+spring.redis.port = 6379
+
+
+
+# support.email
+support.email = moinamazon123@gmail.com
