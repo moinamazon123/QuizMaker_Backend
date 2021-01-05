@@ -9,9 +9,9 @@ server:
 
 spring:
   datasource:
-    password: moin
+    password: Allah@2020
     testWhileIdle: true
-    url: jdbc:mysql://localhost:3306/QuizMaker
+    url: jdbc:mysql://127.0.0.1:3306/QuizMaker?
     username: root
     validationQuery: SELECT 1
 
